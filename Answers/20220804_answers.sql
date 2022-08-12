@@ -7,8 +7,7 @@ SELECT
 FROM
     global_warming.emissions;
 
-#1.2 Are there any other columns that might be interesting to query?
-    
+#1.2 Are there any other columns that might be interesting to query?   
 #Example: maybe coal_co2?
 
 SELECT 
@@ -141,6 +140,3 @@ WHERE
         AND year = 1960
 ORDER BY co2 DESC
 LIMIT 5;
-
-
-
