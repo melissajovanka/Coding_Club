@@ -37,9 +37,3 @@ WHERE condition;
 #Sort by the highest → lowest
 
 #4.2. How would we restrict this to the top 5?
-
-
-
-
-
-
