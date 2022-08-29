@@ -83,9 +83,9 @@ SELECT DISTINCT
 FROM
     global_warming.emissions
 WHERE
-    country NOT LIKE 'North America'
-        OR country NOT LIKE 'South America'
-        OR country NOT LIKE 'World';
+    country NOT LIKE ('%North America%')
+        OR country NOT LIKE ('%South America%')
+        OR country NOT LIKE ('%World%');
 
 #Extra: how do we create a view with our findings? (I.e., create a view removing the 'other values' in the country column that are not countries)
 #Hint: 
